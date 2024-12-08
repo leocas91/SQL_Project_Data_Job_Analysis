@@ -1,10 +1,10 @@
 # Introduction
-📊 Dive into the data job market! Focusing on business analyst roles, this project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
+This project explores top-paying jobs, in-demand skills, and where high demand meets high salary in data analytics.
 
-🔍 SQL queries? Check them out here: [project_sql folder](/project_sql/)
+All SQL queries can be found here: [project_sql folder](/project_sql/)
 
 # Background
-Driven by a quest to navigate the business analyst job market more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs.
+Driven by the desire to apply my SQL skills to real problems, this project was born to identify the top-paid and in-demand skills for the Business Analyst positions.
 
 Data hails from [Luke Barousse's Course](https://www.lukebarousse.com/sql). It's packed with insights on job titles, salaries, locations, and essential skills.
 
@@ -16,12 +16,11 @@ Which skills are associated with higher salaries?
 What are the most optimal skills to learn?
 
 # Tools I used
-For my deep dive into the business analyst job market, I harnessed the power of several key tools:
 
-- **SQL**: The backbone of my analysis, allowing me to query the database and unearth critical insights.
+- **SQL**: The main tool for my analysis, allowing me to query the database and discover critical insights.
 - **PostgreSQL**: The chosen database management system, ideal for handling the job posting data.
 - **Visual Studio Code**: My go-to for database management and executing SQL queries.
-- **Git & GitHub**: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
+- **Git & GitHub**: Essential for version control and sharing my SQL scripts and analysis.
 
 # The Analysis
 Each query for this project aimed at investigating specific aspects of the business analyst job market. Here’s how I approached each question:
@@ -172,7 +171,7 @@ Niche skills like Phoenix ($135.9K) and R ($114.6K) show that both general progr
 *Table of the average salary for the top 9 paying skills for business analysts*
 
 ### 5. Most Optimal Skills to Learn
-Combining insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
+Combining insights from demand and salary data, this query aimed to identify skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
 
 ```sql
 WITH skills_demand as (
@@ -244,14 +243,10 @@ LIMIT 25;
 - Tableau ranks second in demand with 27, demonstrating the importance of creating interactive visualizations for business intelligence.
 
 # What I Learned
-Throughout this adventure, I've turbocharged my SQL toolkit with some serious firepower:
-
-- 🧩 ***Complex Query Crafting:*** Mastered the art of advanced SQL, merging tables like a pro and wielding WITH clauses for ninja-level temp table maneuvers.
-- 📊 ***Data Aggregation:*** Got cozy with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarizing sidekicks.
-- 💡 ***Analytical Wizardry:*** Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
+With this project, I mastered the art of advanced SQL (merging table, using CTE, aggregating with GROUP BY) with the application on a real world example.
 
 # Conclusions
-This project enhanced my SQL skills and provided valuable insights into the business analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring business analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
+This project significantly improved my SQL expertise and offered meaningful insights into the business analyst job market. The analysis results provide a strategic roadmap for prioritizing skill development and job hunting. By concentrating on in-demand and high-paying skills, aspiring business analysts can strengthen their competitiveness in a dynamic job landscape. The exploration underscores the critical need for continuous learning and staying aligned with evolving trends in data analytics.
 
 # Credits
 Luke Barousse's [Course](https://www.lukebarousse.com/sql).

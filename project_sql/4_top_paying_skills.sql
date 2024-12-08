@@ -15,12 +15,14 @@ INNER JOIN skills_job_dim ON skills_job_dim.job_id = job_postings_fact.job_id
 INNER JOIN skills_dim ON skills_dim.skill_id = skills_job_dim.skill_id
 WHERE
     job_title_short = 'Business Analyst' AND
-    job_postings_fact.salary_year_avg IS NOT NULL
+    job_postings_fact.salary_year_avg IS NOT NULL AND
+    job_work_from_home = TRUE
 GROUP BY
     skills
 ORDER BY 
     avg_salary DESC
 LIMIT 25;
+
 
 /*
 	1.	Specialized Tools and Frameworks Dominate: High salaries are tied to niche expertise in tools like Chef ($220K), Numpy ($157.5K), and Airflow ($135.4K), reflecting demand for automation, workflow orchestration, and data manipulation.
